@@ -75,6 +75,8 @@ Se segmenta en:
 5. **Los abuelos necesitan letra grande y texto en iconos.**
    → **Decisión de diseño:** tipografía base 16 sp, etiquetas visibles bajo los iconos de la *navigation bar* y áreas táctiles de 48×48 dp como mínimo.
 
+   > **Conclusión de la investigación:** los cinco insights anteriores guían todas las decisiones de diseño que se documentan a partir de la sección 3. Cualquier pantalla del prototipo debe poder justificarse desde al menos uno de ellos.
+
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación
 ### 3.2 Wireframes
