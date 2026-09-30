@@ -80,6 +80,15 @@ Se segmenta en:
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación
 ### 3.2 Wireframes
+Wireframes de baja fidelidad en escala de grises, en frames Android Compact de 360×800 dp.
+
+![Wireframe Inicio](capturas/wireframes/01-inicio.png)
+![Wireframe Catálogo](capturas/wireframes/02-catalogo.png)
+![Wireframe Detalle](capturas/wireframes/03-detalle.png)
+![Wireframe Carrito](capturas/wireframes/04-carrito.png)
+![Wireframe Checkout](capturas/wireframes/05-checkout.png)
+![Wireframe Confirmación](capturas/wireframes/06-confirmacion.png)
+![Wireframe Favoritos](capturas/wireframes/07-favoritos.png)
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
 
