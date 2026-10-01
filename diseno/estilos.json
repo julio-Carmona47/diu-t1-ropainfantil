@@ -1,0 +1,51 @@
+{
+  "propietario": "julio-carmona47",
+  "tienda": "BABYTOOL",
+  "colorSemilla": "#26A69A",
+  "esquema": {
+    "claro": {
+      "primary": "#006A62",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#9DF2E6",
+      "onPrimaryContainer": "#005049",
+      "secondary": "#4A635F",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#46617A",
+      "onTertiary": "#FFFFFF",
+      "surface": "#F4FBF8",
+      "onSurface": "#161D1C",
+      "error": "#BA1A1A",
+      "onError": "#FFFFFF"
+    },
+    "oscuro": {
+      "primary": "#81D5CA",
+      "onPrimary": "#003732",
+      "primaryContainer": "#005049",
+      "onPrimaryContainer": "#9DF2E6",
+      "secondary": "#B1CCC7",
+      "onSecondary": "#1C3531",
+      "tertiary": "#AEC9E6",
+      "onTertiary": "#163349",
+      "surface": "#0E1514",
+      "onSurface": "#DDE4E2",
+      "error": "#FFB4AB",
+      "onError": "#690005"
+    }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": { "tamano": 24, "interlineado": 32, "peso": 400 },
+      "titleLarge":    { "tamano": 22, "interlineado": 28, "peso": 400 },
+      "titleMedium":   { "tamano": 16, "interlineado": 24, "peso": 500 },
+      "bodyLarge":     { "tamano": 16, "interlineado": 24, "peso": 400 },
+      "labelLarge":    { "tamano": 14, "interlineado": 20, "peso": 500 }
+    }
+  },
+  "espaciado": { "base": 8, "margenPantalla": 16, "columnas": 4, "areaTactilMinima": 48 },
+  "componentes": ["Top app bar", "Navigation bar", "Card", "Filter chip", "Button", "Text field", "Snackbar", "Bottom sheet"],
+  "componentesPropios": [
+    { "nombre": "TarjetaProducto", "variantes": ["normal", "favorito", "agotado"] },
+    { "nombre": "SelectorTalla",   "variantes": ["disponible", "seleccionada", "sin stock"] }
+  ]
+}
