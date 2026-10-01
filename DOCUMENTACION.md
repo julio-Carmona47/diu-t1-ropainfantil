@@ -90,6 +90,35 @@ Wireframes de baja fidelidad en escala de grises, en frames Android Compact de 3
 ![Wireframe Confirmación](capturas/wireframes/06-confirmacion.png)
 ![Wireframe Favoritos](capturas/wireframes/07-favoritos.png)
 ### 3.3 Guía de estilo Material Design 3
+**Color semilla:** `#26A69A` (turquesa)
+
+**Esquema claro:**
+
+| Pareja | Ratio | Cumple AA |
+|---|---|---|
+| primary / onPrimary | 6.4:1 | ✅ |
+| primaryContainer / onPrimaryContainer | 6.8:1 | ✅ |
+| secondary / onSecondary | 6.6:1 | ✅ |
+| tertiary / onTertiary | 6.4:1 | ✅ |
+| surface / onSurface | 15.9:1 | ✅ |
+| error / onError | 5.7:1 | ✅ |
+
+**Esquema oscuro:**
+
+| Pareja | Ratio | Cumple AA |
+|---|---|---|
+| primary / onPrimary | 7.5:1 | ✅ |
+| primaryContainer / onPrimaryContainer | 7.2:1 | ✅ |
+| secondary / onSecondary | 8.4:1 | ✅ |
+| tertiary / onTertiary | 8.6:1 | ✅ |
+| surface / onSurface | 14.3:1 | ✅ |
+| error / onError | 5.3:1 | ✅ |
+
+**Tipografía:** Roboto. Roles principales: headlineSmall (24/32), titleLarge (22/28), titleMedium (16/24), bodyLarge (16/24), labelLarge (14/20).
+
+**Rejilla:** 4 columnas, márgenes de 16 dp, múltiplos de 8 dp, áreas táctiles mínimas de 48×48 dp.
+
+**Tokens completos:** ver [`diseno/estilos.json`](../diseno/estilos.json).
 ### 3.4 Prototipo de alta fidelidad
 
 ## 4. Validación y pruebas
