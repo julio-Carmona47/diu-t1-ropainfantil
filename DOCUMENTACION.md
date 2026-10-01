@@ -91,6 +91,15 @@ Wireframes de baja fidelidad en escala de grises, en frames Android Compact de 3
 ![Wireframe Favoritos](capturas/wireframes/07-favoritos.png)
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
+Prototipo navegable en Figma (enlace en el README). Capturas de las 7 pantallas principales:
+
+![Inicio HD](capturas/prototipo/01-inicio-hd.png)
+![Catálogo HD](capturas/prototipo/02-catalogo-hd.png)
+![Detalle HD](capturas/prototipo/03-detalle-hd.png)
+![Carrito HD](capturas/prototipo/04-carrito-hd.png)
+![Checkout HD](capturas/prototipo/05-checkout-hd.png)
+![Confirmación HD](capturas/prototipo/06-confirmacion-hd.png)
+![Favoritos HD](capturas/prototipo/07-favoritos-hd.png)
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología
