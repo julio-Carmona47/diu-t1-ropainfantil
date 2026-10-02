@@ -168,7 +168,7 @@ Se realizaron pruebas de usabilidad con 2 participantes externos al equipo, sin 
 
    → **Decisión:** ya cubierta por la mejora 2 (guía de tallas más visible).
 
-   
+
 ### 4.3 Iteraciones y mejoras
 Se aplicó una mejora basada en los hallazgos de la sección 4.2.
 
@@ -188,8 +188,55 @@ Se aplicó una mejora basada en los hallazgos de la sección 4.2.
 - Mostrar mensaje de confirmación visual al añadir al carrito.
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
+### 5.1 Justificación del diseño propuesto
+
+El diseño de la app BABYTOOL se ha construido siguiendo los principios del diseño centrado en el usuario y la guía Material Design 3. Cada decisión está respaldada por los insights de la sección 2.4.
+
+**Decisiones clave:**
+
+- **Categorización por edad en la pantalla de inicio.** Los usuarios buscan ropa por edad del niño, no por tipo de prenda. Los chips "Bebé 0-24m", "Niña", "Niño" reducen la fricción inicial y aceleran la navegación.
+
+- **Guía de tallas como bottom sheet.** Los usuarios dudan con las equivalencias entre edad y talla. Un bottom sheet en la pantalla de detalle, con una tabla clara, permite consultarla sin abandonar el flujo de compra.
+
+- **Selector de talla propio con estados.** El componente `SelectorTalla` distingue entre tallas disponibles, seleccionadas y sin stock, evitando clics en vano y comunicando disponibilidad de un vistazo.
+
+- **Snackbar "Deshacer" en el carrito.** El miedo a eliminar un producto por error se mitiga con un mensaje emergente que permite revertir la acción durante unos segundos.
+
+- **Formulario de checkout con validación en tiempo real.** El campo Teléfono en estado de error (con mensaje de ayuda) demuestra el patrón M3 y reduce errores antes de enviar el formulario.
+
+- **Zona del pulgar.** Las acciones críticas (añadir al carrito, pagar, tramitar pedido) están situadas en la mitad inferior de la pantalla, alcanzables con el pulgar en uso a una mano.
+
+- **Accesibilidad.** Todos los textos superan contraste 4,5:1, las áreas táctiles son de al menos 48×48 dp, y la tipografía base es de 16 sp.
+
+**Valor diferencial:** BABYTOOL no es solo un catálogo. Es una herramienta pensada para reducir la duda de talla (el principal motivo de devolución en moda infantil) y para que tanto madres con poco tiempo como abuelos con poca destreza digital puedan comprar en menos de 2 minutos.
+### 5.2 Recomendaciones y pasos a seguir
 ### 5.2 Recomendaciones y pasos a seguir
 
+El prototipo entregado es una primera versión funcional, orientada a validar el flujo de compra y las decisiones de diseño principales. Para llegar a producción se recomienda:
+
+1. **Pruebas con usuarios reales a mayor escala.** Ampliar el estudio de usabilidad a 10-15 participantes por segmento (madres/padres, abuelos, regaladores) y medir métricas reales como tasa de conversión, tiempo por tarea y abandonos.
+
+2. **Ampliar el catálogo y el backend.** Conectar la app a un sistema real de gestión de productos, con fotos de calidad y filtros funcionales por edad, talla, color y precio.
+
+3. **Modo oscuro completo.** Extender el esquema oscuro a todas las pantallas (ahora solo Inicio y Detalle), manteniendo el contraste verificado.
+
+4. **Notificaciones y fidelización.** Añadir notificaciones push de ofertas y recordatorios de carrito abandonado. Incorporar un sistema de puntos o descuentos para clientes recurrentes.
+
+5. **Métodos de pago alternativos.** Añadir opciones como Bizum, PayPal o pago a plazos, comunes en el mercado español.
+
+6. **Accesibilidad avanzada.** Auditar con TalkBack (lector de pantalla de Android) y ajustar etiquetas semánticas de los componentes.
+
+7. **Internacionalización.** Preparar los textos para traducirlos al catalán, gallego, euskera e inglés, dado que BABYTOOL puede operar en varias comunidades autónomas.
 ## 6. Referencias bibliográficas
+
+Google. (2024). *Material Design 3*. https://m3.material.io/
+
+Nielsen, J. (2020). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+
+Norman, D. A. (2013). *The design of everyday things: Revised and expanded edition*. Basic Books.
+
+W3C. (2023). *Web Content Accessibility Guidelines (WCAG) 2.2*. World Wide Web Consortium. https://www.w3.org/TR/WCAG22/
+
+Zimmerman, J., & Forlizzi, J. (2014). *Research through design in HCI*. In J. S. Olson & W. A. Kellogg (Eds.), *Ways of knowing in HCI* (pp. 167-189). Springer.
 
 Palabra del día: 29
