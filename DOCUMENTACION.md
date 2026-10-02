@@ -163,10 +163,29 @@ Se realizaron pruebas de usabilidad con 2 participantes externos al equipo, sin 
 2. **La guía de tallas no se encuentra a la primera.** El participante 2 la buscó en la top bar antes de encontrarla en el detalle. Está demasiado sutil (texto sin fondo).
    → **Decisión:** convertir "Guía de tallas" en un botón/chip con fondo turquesa claro y icono destacado.
 
-3. **La selección de talla genera dudas.** Los participantes dudaron al elegir entre tallas por edad (2, 4, 6, 8) porque no saben a qué medidas equivalen.
-   → **Decisión:** ya cubierta por la mejora 2 (guía de tallas más visible).
-### 4.3 Iteraciones y mejoras
+3. **La selección de talla genera dudas.** Los participantes dudaron al elegir entre tallas por edad (2, 4, 6, 8) porque no saben a qué medidas equivalen
 
+
+   → **Decisión:** ya cubierta por la mejora 2 (guía de tallas más visible).
+
+   
+### 4.3 Iteraciones y mejoras
+Se aplicó una mejora basada en los hallazgos de la sección 4.2.
+
+**Antes:**
+
+![Antes](capturas/iteracion/antes.png)
+
+**Después:**
+
+![Después](capturas/iteracion/despues.png)
+
+**Cambio aplicado:** el botón "Guía de tallas" pasa de ser un texto suelto a un chip con fondo turquesa claro (`#9DF2E6`), borde `#006A62` y texto en `#005049`. Motivo: 1 de 2 participantes no lo encontró a la primera. La nueva versión destaca visualmente y se reconoce como acción pulsable.
+
+**Otras mejoras identificadas (no aplicadas por falta de tiempo):**
+
+- Aumentar la duración del snackbar "Deshacer" a 5 s y añadir icono.
+- Mostrar mensaje de confirmación visual al añadir al carrito.
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
 ### 5.2 Recomendaciones y pasos a seguir
