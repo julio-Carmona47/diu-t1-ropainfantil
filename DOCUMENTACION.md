@@ -132,7 +132,39 @@ Prototipo navegable en Figma (enlace en el README). Capturas de las 7 pantallas 
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología
+
+Se realizaron pruebas de usabilidad con 2 participantes externos al equipo, sin conocimiento previo del prototipo. Cada participante realizó 3 tareas sobre el prototipo navegable, midiendo:
+
+- **Éxito:** ¿completó la tarea sin ayuda?
+- **Tiempo:** duración en completarla.
+- **Errores:** número de pasos erróneos, dudas o bloqueos.
+
+**Tareas:**
+
+1. Compra un pijama talla 4 años.
+2. Encuentra la guía de tallas y dime qué talla equivale a 4 años.
+3. Elimina un producto del carrito y luego recupéralo.
 ### 4.2 Resultados
+
+| Participante | Tarea | Éxito | Tiempo | Errores |
+|---|---|---|---|---|
+| Participante 1 | Compra pijama talla 4 | ✅ | 1:42 | 0 |
+| Participante 1 | Encontrar guía de tallas | ✅ | 0:14 | 0 |
+| Participante 1 | Eliminar y recuperar | ✅ | 0:22 | 1 (no vio el snackbar al principio) |
+| Participante 2 | Compra pijama talla 4 | ✅ | 2:05 | 1 (dudó en la talla) |
+| Participante 2 | Encontrar guía de tallas | ✅ | 0:28 | 1 (buscó en la top bar antes del detalle) |
+| Participante 2 | Eliminar y recuperar | ❌ | 0:35 | 2 (no encontró "Deshacer") |
+
+**Tres hallazgos principales:**
+
+1. **El snackbar "Deshacer" pasa desapercibido.** 1 de 2 participantes no lo vio a tiempo. La duración por defecto (corta) y la falta de un icono llamativo lo hacen poco visible.
+   → **Decisión:** aumentar la duración del snackbar y añadir un icono de deshacer.
+
+2. **La guía de tallas no se encuentra a la primera.** El participante 2 la buscó en la top bar antes de encontrarla en el detalle. Está demasiado sutil (texto sin fondo).
+   → **Decisión:** convertir "Guía de tallas" en un botón/chip con fondo turquesa claro y icono destacado.
+
+3. **La selección de talla genera dudas.** Los participantes dudaron al elegir entre tallas por edad (2, 4, 6, 8) porque no saben a qué medidas equivalen.
+   → **Decisión:** ya cubierta por la mejora 2 (guía de tallas más visible).
 ### 4.3 Iteraciones y mejoras
 
 ## 5. Entrega y documentación final
